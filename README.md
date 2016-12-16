@@ -18,7 +18,7 @@ The output would be:
       "title": "The Shawshank Redemption",
       "year": "1994",
       "rating": {
-        "id": null,
+        "id": "rt1",
         "average": 9.3,
         "numRaters": 1738986
       },
@@ -40,7 +40,7 @@ The output would be:
       "title": "The Lord of the Rings: The Return of the King",
       "year": "2003",
       "rating": {
-        "id": null,
+        "id": "rt2",
         "average": 8.9,
         "numRaters": 1248775
       },

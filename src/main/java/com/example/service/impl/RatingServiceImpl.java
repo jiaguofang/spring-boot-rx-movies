@@ -21,6 +21,7 @@ public class RatingServiceImpl implements RatingService {
     static {
         {
             Rating rating = new Rating();
+            rating.setId("rt1");
             rating.setAverage(9.3);
             rating.setNumRaters(1738986);
             ratingMap.put("rt1", rating);
@@ -28,6 +29,7 @@ public class RatingServiceImpl implements RatingService {
 
         {
             Rating rating = new Rating();
+            rating.setId("rt2");
             rating.setAverage(8.9);
             rating.setNumRaters(1248775);
             ratingMap.put("rt2", rating);
@@ -35,6 +37,7 @@ public class RatingServiceImpl implements RatingService {
 
         {
             Rating rating = new Rating();
+            rating.setId("rt3");
             rating.setAverage(9.0);
             rating.setNumRaters(1723350);
             ratingMap.put("rt3", rating);
@@ -42,6 +45,7 @@ public class RatingServiceImpl implements RatingService {
 
         {
             Rating rating = new Rating();
+            rating.setId("rt4");
             rating.setAverage(7.9);
             rating.setNumRaters(905836);
             ratingMap.put("rt4", rating);
